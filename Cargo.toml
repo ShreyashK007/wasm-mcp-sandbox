@@ -1,0 +1,17 @@
+[package]
+name = "wasm-mcp-sandbox"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# The async engine to handle multiple tasks at once
+tokio = { version = "1", features = ["full"] }
+
+# For parsing the JSON messages from Claude
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# The WebAssembly 
+wasmtime = "19.0"
+wasmtime-wasi = "19.0" 
+anyhow = "1.0"
