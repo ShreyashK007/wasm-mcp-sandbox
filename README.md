@@ -3,7 +3,6 @@
 ![Rust](https://img.shields.io/badge/Rust-1.75%2B-orange.svg)
 ![Wasmtime](https://img.shields.io/badge/Wasmtime-Native-blue.svg)
 ![MCP](https://img.shields.io/badge/Protocol-MCP-purple.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A high-performance, zero-trust WebAssembly execution engine natively integrated with the Model Context Protocol (MCP). 
 
